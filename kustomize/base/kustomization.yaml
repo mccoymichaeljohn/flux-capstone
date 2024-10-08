@@ -4,11 +4,6 @@ resources:
 - database/
 - ingress/
 
-configMapGenerator:
-- literals:
-  - ASPNETCORE_ENVIRONMENT=Development
-  name: common-config
-
 images:
 - name: team6Capstone.azurecr.io/optum-azure-capstone-express-server
   newTag: v1
