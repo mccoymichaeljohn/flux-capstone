@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-api
-        image: team6capstone.azurecr.io/optum-azure-capstone-flask-api:latest
+        image: team6capstone.azurecr.io/optum-azure-capstone-flask-api:v1
         ports:
         - containerPort: 5000
         volumeMounts:
