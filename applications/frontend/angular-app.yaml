@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: angular-app
-        image: team6capstone.azurecr.io/optum-azure-capstone-angular-app:v1
+        image: team6capstone.azurecr.io/optum-azure-capstone-angular-app:v2
         ports:
         - containerPort: 80
       restartPolicy: Always
