@@ -4,6 +4,8 @@ resources:
 - database/
 - ingress/
 
+namespace: default
+
 images:
 - name: team6Capstone.azurecr.io/optum-azure-capstone-express-server
   newTag: v1
